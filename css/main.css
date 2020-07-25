@@ -441,6 +441,79 @@ blockquote{
   margin-left: 5px;
 }
 
+/* ----- ----- Mapa ----- ----- */
+.map{
+  height: 450px;
+  background-image: url(../img/separador.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 768px){
+  .map{
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+}
+
+/* ----- ----- Footer ----- ----- */
+footer{
+  background-color: #585858;
+  padding-top: 20px;
+}
+
+footer .contenedor{
+  margin-bottom: 0px;
+}
+
+footer .contenedor > div{
+  color: #fff;
+  padding: 0px 2px;
+  font-size: 12px; 
+}
+
+@media only screen and (min-width: 768px){
+  footer .contenedor > div{
+    width: 33.3%;
+    float: left;
+  }
+}
+
+footer h3{
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  margin-bottom: 22px;
+}
+
+.latest-tweets li{
+  margin-bottom: 10px;
+  
+}
+
+.redes-sociales{
+  text-align: center;
+  float: left;
+}
+
+.copyright{
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  padding: 10px 0;
+  margin: 20px 0 0 0;
+  text-align: center;
+}
+
+.redes-sociales a{
+  color: white;
+  font-size: 2.5em;
+  margin-right: 20px;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
