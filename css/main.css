@@ -110,6 +110,10 @@ span{
   text-align: center;
 }
 
+.active{
+  border-bottom: 5px solid #1ED223;
+}
+
 /* ----- ----- Grid ----- ----- */
 @media only screen and (min-width: 768px){
   .content-grid{
@@ -153,6 +157,7 @@ span{
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 
 .header-content{
   padding-top: 40px;
