@@ -158,6 +158,29 @@ span{
   background-repeat: no-repeat;
 }
 
+.hero2{
+  background-image: url(../img/background02.jpg);
+  height: 100vh;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero3{
+  background-image: url(../img/background03.jpg);
+  height: 100vh;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero4{
+  background-image: url(../img/background04.jpg);
+  height: 100vh;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 .header-content{
   padding-top: 40px;
