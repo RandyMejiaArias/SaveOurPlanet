@@ -405,9 +405,17 @@ blockquote{
   }
 }
 
+.line{
+  display: inline-block;
+}
+
 .image-effect{
   width: 75%;
   margin-bottom: 10px;
+}
+
+.green{
+  color: #1ED223;
 }
 
 /* ----- ----- Cajas de información ----- ----- */
