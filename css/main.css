@@ -393,6 +393,18 @@ blockquote{
   margin: 0 auto;
 }
 
+.secundary-image {
+  text-align: center;
+  margin: 0 auto;
+  float: right;
+}
+
+@media only screen and (max-width: 768px){
+  .derecha{
+    float: none
+  }
+}
+
 .image-effect{
   width: 75%;
   margin-bottom: 10px;
