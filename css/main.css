@@ -597,6 +597,7 @@ footer h3{
 
 .reserva-contacto input[type="submit"]:hover{
   background-color: darkgreen;
+  cursor: pointer;
 }
 
 /* ==========================================================================
