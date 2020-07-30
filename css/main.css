@@ -562,6 +562,43 @@ footer h3{
   margin-right: 20px;
 }
 
+/* ----- ----- Formulario de Contacto ----- ----- */
+@media only screen and (min-width: 768px){
+  .reserva-contacto{
+    margin: 15px 250px 15px 250px
+  }
+}
+
+.reserva-contacto .form-field{
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.reserva-contacto .form-field input,
+.reserva-contacto .form-field textarea{
+  width: 100%;
+  border: 1px solid #276F02;
+  padding: 15px 10px;
+}
+
+.reserva-contacto .form-field textarea{
+  height: 200px;
+}
+
+.reserva-contacto input[type="submit"]{
+  border: none;
+  margin: 0 auto;
+  display: block;
+  padding: 20px 25px 20px 25px;
+  text-align: center;
+  background-color: #1ed223;
+  color: #f2f2f2
+}
+
+.reserva-contacto input[type="submit"]:hover{
+  background-color: darkgreen;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
